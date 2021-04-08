@@ -34,7 +34,7 @@ async def StartHandler(bot,message):
         markup=InlineKeyboardMarkup([[InlineKeyboardButton(x,callback_data=x) for x in emoji[0]],
                                      [InlineKeyboardButton(x,callback_data=x) for x in emoji[1]],
                                      [InlineKeyboardButton(x,callback_data=x) for x in emoji[2]]])
-        msg=await bot.send_photo(message.chat.id,'G:\\BOT\\airdropbot\\bot\\plugins\\utils\\image\\testemoji.png',caption=caption,reply_markup=markup,parse_mode='md')
+        msg=await bot.send_photo(message.chat.id,'telegram-airdropbot-bot/bot/plugins/utils/image/testemoji.png',caption=caption,reply_markup=markup,parse_mode='md')
 
 
 
