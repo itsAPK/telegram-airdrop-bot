@@ -20,7 +20,7 @@ pyromod==1.5
 PySocks==1.7.1
 python-dotenv==0.15.0
 PyYAML==5.4.1
-requests==2.25.1
+requests==2.32.0
 SQLAlchemy==1.4.2
 starlette==0.13.6
 TgCrypto==1.2.2
